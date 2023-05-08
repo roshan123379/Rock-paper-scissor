@@ -1,15 +1,10 @@
-*{
-    
-    background-color: antiquewhite;
-}
-
-
 
 
 .heading{
+    
     margin-top: 1cm;
     text-align: center;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -25,10 +20,10 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
-    
+    gap: 0.5cm;
+    justify-content: center;
     font-size: 10px;
-    margin: 0.5cm;
+    
 }
 
 .container span{
