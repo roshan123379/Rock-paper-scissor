@@ -1,28 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .mainContainer{
-    margin: 3cm 12cm;
+    
     border: 1px solid black;
-    padding: 2cm;
+    padding: 1cm;
     background-color: antiquewhite;
 }
 
 .heading{
-    font-size: 32px;
+    font-size: 12px;
+    margin-top: 2cm;
 }
 
 .emoji{
-    font-size: 70px;
-    margin: 0 4cm;
+    font-size: 50px;
+    margin: 0 2cm;
 }
 
 .emoji span{
-    margin: 0 1.5cm;
+    margin: 0 0cm;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    margin-left: 2cm;
-    margin-right: 2.5cm;
+    
+    font-size: 10px;
     margin-top: 1cm;
 }
 
@@ -33,39 +40,41 @@
 .input{
     display: flex;
     justify-content: center;
-    gap: 8cm;
-    font-size: 28px;
+    gap: 2cm;
+    font-size: 18px;
     font-weight: bold;
+    margin-top: 1cm;
 }
 
 .input span{
     color: darkgreen;
 }
 .select{
-    font-size: 22px;
-    margin: 0 5.7cm;
+    font-size: 12px;
+    margin: 1cm 1.5cm;
 }
 
 .images{
     display: flex;
     justify-content: center;
-    gap: 1cm;
+    gap: 0.6cm;
+    h
 }
 
 .images img{
-    width: 3cm;
-    height: 3cm;
+    width: 1.5cm;
+    height: 1.5cm;
     border-radius: 50%;
 }
 
 
 .resul {
-    padding: 0 7cm;
-    margin-left: 1cm; 
-    margin-top: 1cm;
+    
+    
+    margin: 1cm 2cm;
 }
 #result{
-    font-size: 30px;
+    font-size: 19px;
     font-weight: bold;
     color: darkgreen;
 }
