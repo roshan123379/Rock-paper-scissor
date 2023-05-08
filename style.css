@@ -1,24 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-
-
-.mainContainer{
     
-    border: 1px solid black;
-    padding: 1cm;
     background-color: antiquewhite;
 }
 
+
+
+
 .heading{
-    font-size: 12px;
-    margin-top: 2cm;
+    margin-top: 1cm;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .emoji{
-    font-size: 50px;
-    margin: 0 2cm;
+    font-size: 40px;
+    margin: 0.5cm;
+    text-align: center;
 }
 
 .emoji span{
@@ -30,7 +28,7 @@
     justify-content: space-between;
     
     font-size: 10px;
-    margin-top: 1cm;
+    margin: 0.5cm;
 }
 
 .container span{
@@ -43,24 +41,25 @@
     gap: 2cm;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 1cm;
+    margin-top: 0.5cm;
 }
 
 .input span{
     color: darkgreen;
+    
 }
 .select{
     font-size: 12px;
     margin: 1cm 1.5cm;
+    text-align: center;
 }
 
 .images{
     display: flex;
     justify-content: center;
     gap: 0.6cm;
-    h
+    
 }
-
 .images img{
     width: 1.5cm;
     height: 1.5cm;
@@ -69,7 +68,7 @@
 
 
 .resul {
-    
+    text-align: center;
     
     margin: 1cm 2cm;
 }
@@ -77,6 +76,7 @@
     font-size: 19px;
     font-weight: bold;
     color: darkgreen;
+    
 }
 
 
